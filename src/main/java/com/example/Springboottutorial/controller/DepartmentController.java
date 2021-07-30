@@ -12,7 +12,6 @@ import java.util.List;
 @RestController
 public class DepartmentController {
 
-
     @Autowired
     private DepartmentService departmentService ;
 
@@ -51,7 +50,4 @@ public class DepartmentController {
     public Department fetchDepartmentByName(@PathVariable("name") String departmentName){
       return departmentService.fetchDepartmentByName(departmentName);
     }
-
-
-
 }
