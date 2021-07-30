@@ -16,7 +16,7 @@ public class Department {
     private Long departmentId;
 
     @NotBlank(message = "Please Add Department name ")
-    @Length(max =5 ,min =1)
+    @Length(max =10 ,min =1)
     private String departmentName ;
 
     private String departmentAddress;
